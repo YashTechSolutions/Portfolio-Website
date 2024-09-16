@@ -31,7 +31,7 @@ export const PROJECTS = [
     description:
       "In Project G.E.N.I.S.I.S, I am working on an AI assistant designed to enhance productivity through voice commands. I’m integrating advanced tools like Google Gemini and a custom PyTorch LLM to enable sophisticated natural language understanding. My work involves creating interactive features, such as voice-controlled tasks and games, to streamline workflows. The project aims to build an automated coding assistant capable of generating, debugging, and refactoring code based on voice instructions.",
     technologies: ["Prompt Engineering", "PyTorch", "TensorFlow", "ReactJS", "Python"],
-    url:"https://web-genisis.vercel.app/"
+    url:"https://yes-henna-psi.vercel.app/"
   },
   {
     title: "Custom AFL Fuzzer",
