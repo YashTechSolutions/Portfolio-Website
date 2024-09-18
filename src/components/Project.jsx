@@ -21,7 +21,7 @@ const Project = () => {
                             ))}
                         </motion.div>
                         <motion.div initial={{opacity:0 , x:100}} whileInView={{x:0, opacity:1}} transition={{duration:1.5, delay:index-(index)*0.8+0.1}}  className='w-full flex justify-center pt-4 lg:pt-0 lg:w-1/4'>
-                            <img className='w-3/4' src={project.image} alt=''/>
+                            <img className='w-3/4 object-scale-down' src={project.image} alt=''/>
                         </motion.div>
                     </div>
                 ))}
