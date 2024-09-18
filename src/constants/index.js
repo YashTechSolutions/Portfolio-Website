@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `I'm a tech enthusiast with a strong passion for AI and full-stack development. I specialize in building impactful tech solutions using tools like PyTorch, TensorFlow, ReactJS, Node.js, MongoDB, and Android Studio. Through projects like Project G.E.N.I.S.I.S, where I’m developing an AI assistant to boost productivity, I aim to harness the power of AI to create smarter, more efficient applications. My goal is to drive the next wave of tech innovations, making everyday life easier with cutting-edge technologies. Let’s connect and build the future of technology together!`;
 
@@ -56,6 +57,13 @@ export const PROJECTS = [
       "In the Algorithmic Trading Bot project, I designed and implemented a trading system based on the Moving Average (MA) Crossover strategy. I developed algorithms to analyze market data and execute trades automatically when specific MA crossover signals occurred. This bot aimed to enhance trading efficiency by making real-time, data-driven decisions. The project focused on optimizing performance and accuracy in order to improve trading outcomes.",
     technologies: ["Python", "Pandas", "NumPy", "Oanda API"],
     url:"https://github.com/YashTechSolutions/AlgorithmicTrading"
+  },{
+    title: "Food Prediction Computer Vision Model",
+    image: project5,
+    description:
+      "Implemented a food detection model, this model can predict the food item in the image. There are 3 models included in this project, one is a custom model trained on a custom dataset, the second one is a more complex model and the third one is a model trained on the Food101 dataset. The model is trained on the TensorFlow framework.",
+    technologies: ["Python", "Pandas", "Tensorflow"],
+    url:"https://github.com/YashTechSolutions/FoodPredictionModel"
   },
 ];
 
