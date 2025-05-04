@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project5.png";
+import projectMoodify from "../assets/projects/projectMoodify.png";
+import projectSinglish from "../assets/projects/projectSinglish.jpg";
 
 export const HERO_CONTENT = `I'm a tech enthusiast with a strong passion for AI and full-stack development. I specialize in building impactful tech solutions using tools like PyTorch, TensorFlow, ReactJS, Node.js, MongoDB, and Android Studio. Through projects like Project G.E.N.I.S.I.S, where I’m developing an AI assistant to boost productivity, I aim to harness the power of AI to create smarter, more efficient applications. My goal is to drive the next wave of tech innovations, making everyday life easier with cutting-edge technologies. Let’s connect and build the future of technology together!`;
 
@@ -16,16 +18,42 @@ Let’s connect and see how we can build something amazing together while having
 
 export const EXPERIENCES = [
   {
+    year: "Aug 2024 – May 2025",
+    role: "Team Leader | Computer Vision Engineer",
+    company: "Capstone Project – IDEMIA",
+    description: `Spearheading the development of an intelligent vehicle clearance system to enhance immigration processing at land checkpoints. Leading a cross-functional team of 7 engineers in end-to-end system design, from model development to real-time deployment. Engineered high-performance object detection pipelines using TensorFlow and YOLO, achieving 90% accuracy under operational constraints. The project pioneers a scalable solution aligned with next-generation smart infrastructure initiatives in border security.`,
+    technologies: ["TensorFlow", "YOLO", "Python"],
+    url: "https://capstoneshowcase.sutd.edu.sg/project/proj-21-idemia-car-clearance-kiosk-design/"
+  }
+,  
+  {
     year: "Aug 2023 - Sep 2023",
     role: "Software Developer Intern",
     company: "ATT Digiverse",
     description: `At ATT Digiverse, I worked as a Software Developer Intern where I contributed to various stages of project development, including analysis, wireframing, and implementation. I became proficient in using PowerApps, Power Automate, Figma, ReactJS, and Keycloak, delivering effective solutions in a dynamic environment. My role involved enhancing communication with senior leadership and actively participating in product marketing and front-end development. This experience sharpened my problem-solving skills and deepened my understanding of both technical and strategic aspects of software development.`,
     technologies: ["PowerApps", "Power Automate", "Figma", "ReactJS", "Keycloak", "UI/UX Design"],
-    
+    url:""
   }
 ];
 
 export const PROJECTS = [
+  {
+    title: "Moodify: Music Emotion Classifier",
+    image: projectMoodify,  
+    description:
+      "Designed a deep learning-based music emotion classification system that achieves 90% accuracy across four emotional states: happy, sad, fear, and neutral. The model integrates mel-spectrogram and MFCC features and is trained on a diverse, multi-source dataset combining Emotify (crowdsourced) and Soundtracks (expert-labeled) annotations. Built to power intelligent playlist curation systems on streaming platforms like Spotify and YouTube Music, improving emotional coherence and reducing mood drift during playback.",
+    technologies: ["PyTorch", "Torchaudio", "Librosa", "Deep Learning", "Audio Processing"],
+    url: "https://github.com/YashTechSolutions/Moodify-CDS-2025"
+  },
+  {
+    title: "Localized Singlish TTS for Accessibility",
+    image: projectSinglish,  
+    description:
+      "Developed a localized Text-to-Speech (TTS) system optimized for Singaporean English (Singlish) to enhance digital accessibility for elderly users, individuals with visual impairments, and those with reading difficulties. The system models unique prosodic elements of Singlish—including tonal particles like 'lah'—to produce natural and culturally familiar speech. Performance was benchmarked against industry tools such as Hume.ai and Easy-Peasy.AI, demonstrating improved expressiveness and pronunciation accuracy under resource constraints.",
+    technologies: ["Speech Synthesis", "Prosody Modeling", "Python", "Hume.ai", "Easy-Peasy.AI"],
+    url: "https://github.com/YashTechSolutions/EmotionalTTS/tree/InterfaceFinal"
+  },
+  
   {
     title: "Project G.E.N.I.S.I.S",
     image: project1,
@@ -70,5 +98,5 @@ export const PROJECTS = [
 export const CONTACT = {
   // address: "767 Fifth Avenue, New York, NY 10153 ",
   // phoneNo: "+12 4555 666 00 ",
-  email: "yashcoding24@gmail.com",
+  email: "yash137yadav@gmail.com",
 };
